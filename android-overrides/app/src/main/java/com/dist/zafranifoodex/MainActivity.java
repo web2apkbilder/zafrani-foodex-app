@@ -17,12 +17,12 @@ public class MainActivity extends BridgeActivity {
   private static final String HOST = Uri.parse("https://dist.zafranizeera.com").getHost();
   private long lastBack = 0;
   static {
-    ROUTES.put("whatsapp", "native");
-    ROUTES.put("upi", "native");
-    ROUTES.put("tel", "native");
-    ROUTES.put("mailto", "native");
     ROUTES.put("sms", "native");
+    ROUTES.put("tel", "native");
+    ROUTES.put("upi", "native");
+    ROUTES.put("mailto", "native");
     ROUTES.put("external", "browser");
+    ROUTES.put("whatsapp", "native");
   }
 
   @Override
