@@ -1,0 +1,27 @@
+{
+  "appId": "com.dist.zafranifoodex",
+  "appName": "Zafrani Foodex",
+  "webDir": "www",
+  "server": {
+    "url": "https://dist.zafranizeera.com",
+    "cleartext": false,
+    "errorPath": "offline.html"
+  },
+  "android": {
+    "buildOptions": {
+      "keystorePath": "release.jks",
+      "keystoreAlias": "upload"
+    }
+  },
+  "plugins": {
+    "SplashScreen": {
+      "backgroundColor": "#ffffff",
+      "launchShowDuration": 1500,
+      "showSpinner": false
+    },
+    "StatusBar": {
+      "backgroundColor": "#ffffff",
+      "style": "DARK"
+    }
+  }
+}
